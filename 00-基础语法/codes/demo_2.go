@@ -4,7 +4,11 @@ import (
 	"fmt"
 )
 
+/**
+ * @Description: 变量声明
+ */
 func main() {
+
 	var age_1 uint8 = 31
 	var age_2 = 32
 	age_3 := 33
@@ -18,4 +22,25 @@ func main() {
 
 	name_2, is_boy, height := "Jay", true, 180.66
 	fmt.Println(name_2, is_boy, height)
+
+	var blName string = "添加"
+	fmt.Println(blName)
+
+	var tom = "tom simith"
+	fmt.Println(tom)
+
+	difjd := 9
+	fmt.Println(difjd)
+
+	var one, two, three int = 1, 2, 3
+	fmt.Println(one, two, three)
+
+	var name_3, name_5, name_6 = "Tom", "Jay", "Jack"
+
+	fmt.Println(name_3, name_5, name_6)
+
+	day, month, year, name := 1, 2, 3, "Tom"
+
+	fmt.Println(day, month, year, name)
+
 }

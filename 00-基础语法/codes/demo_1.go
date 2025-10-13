@@ -6,6 +6,10 @@ import (
 
 func main() {
 
+	/**
+	 * 常量定义
+	 */
+
 	const name string = "Tom"
 	fmt.Println(name)
 
@@ -17,4 +21,16 @@ func main() {
 
 	const name_3, age_1 = "Tom", 30
 	fmt.Println(name_3, age_1)
+
+	const remark, total string = "dd", "督导"
+
+	fmt.Println(remark, total)
+
+	const bootAge = 19
+	fmt.Println(bootAge)
+
+	const one, two, three = "天", "地", "人"
+
+	fmt.Println(one, two, three)
+
 }
