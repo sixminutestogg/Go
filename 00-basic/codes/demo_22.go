@@ -1,4 +1,4 @@
-//demo_22.go
+// demo_22.go
 package main
 
 import "fmt"

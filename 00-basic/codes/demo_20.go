@@ -1,4 +1,4 @@
-//demo_20.go
+// demo_20.go
 package main
 
 import (
@@ -8,9 +8,9 @@ import (
 func main() {
 
 	person := map[int]string{
-		1 : "Tom",
-		2 : "Aaron",
-		3 : "John",
+		1: "Tom",
+		2: "Aaron",
+		3: "John",
 	}
 
 	fmt.Printf("len=%d map=%v\n", len(person), person)

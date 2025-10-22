@@ -1,4 +1,4 @@
-//demo_23.go
+// demo_23.go
 package main
 
 import "fmt"
@@ -13,6 +13,6 @@ func main() {
 		fmt.Println("i =", i)
 	}
 
-	END :
-		fmt.Println("end")
+END:
+	fmt.Println("end")
 }

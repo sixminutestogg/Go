@@ -12,7 +12,7 @@ type Result struct {
 
 func main() {
 	var res Result
-	res.Code    = 200
+	res.Code = 200
 	res.Message = "success"
 
 	//序列化

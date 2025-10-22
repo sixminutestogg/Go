@@ -1,4 +1,4 @@
-//demo_25.go
+// demo_25.go
 package main
 
 import (
@@ -22,5 +22,3 @@ func getTimeStr() string {
 func getTimeInt() int64 {
 	return time.Now().Unix()
 }
-
-

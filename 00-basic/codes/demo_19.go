@@ -1,4 +1,4 @@
-//demo_18.go
+// demo_19.go
 package main
 
 import (
@@ -7,8 +7,8 @@ import (
 
 func main() {
 
-	person := [3] string {"Tom", "Aaron", "John"}
-	fmt.Printf("len=%d cap=%d array=%v\n",len(person),cap(person),person)
+	person := []string{"Tom", "Aaron", "John"}
+	fmt.Printf("len=%d cap=%d slice=%v\n", len(person), cap(person), person)
 
 	fmt.Println("")
 
